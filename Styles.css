@@ -1,0 +1,88 @@
+/************************Tag Selectors*********************/
+body{
+  background-color: #fafafa;
+  Font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1{
+  font-weight: 400;
+  text-align: center;
+  padding: 0;
+}
+h2{
+  text-align: center;
+  font-weight: 600;
+  p
+}
+h3{
+  text-align: center;
+  font-weight: 200;
+}
+img{
+  position: absolute;
+  margin-left: 220px;
+  margin-bottom: 75Spx;
+  padding-left: .5rem .5rem;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/***********************Class Selectors*******************/
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: #3e52a3; }
+.intro {
+    /* Grid styles */
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat( minmax(375px, 1fr));
+}
+.element {
+  /* This will result on four columns, each one of 1fr */
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* This will result on two rows, each one of 300px */
+  grid-template-rows: repeat(2,300px);
+}
+
+/* breweries styles */
+.Cards {
+  padding: 2rem;
+}
+
+.Cards > ul {
+  display: grid;
+  grid-template-columns: repeat( minmax(337px, 1fr));
+  grid-gap: 1rem;
+}
+
+.Cards > ul > li {
+  border: 1px solid #E2E2E2;
+  border-radius: .5rem;
+
+}
+
+.Card-1{
+  box-shadow: 0 1px 1px 0 #a3a5ae;
+
+  width: 300px;
+  height: 200px;
+}
+.Card-2{
+  border-top-color: #ea5353;
+
+  width: 300px;
+  height: 200px;
+}
+.Card-3{
+  border-top-color: #fcaf4a;
+
+  width: 300px;
+  height: 200px;
+}
+.Card-4{
+  border-top-color: #549ef2;
+  width: 300px;
+  height: 200px;
+}
